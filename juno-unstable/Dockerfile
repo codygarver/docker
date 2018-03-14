@@ -13,3 +13,5 @@ RUN apt-get update && \
 	apt-get install -y elementary-os-overlay && \
 	apt-get update && \
 	apt-get -y dist-upgrade
+
+ADD scripts/build-meson-project.sh /usr/bin/build-meson-project
